@@ -15,7 +15,6 @@ function getCommonCharacterCount(s1, s2) {
   // throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
   let number = 0;
-  let arr = [];
   for(let i = 0; i < s1.length; i++){
     for(let j = 0; j < s2.length; j++){
       if(s1[i] === s2[j]){
