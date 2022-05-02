@@ -47,7 +47,7 @@ function getSeason(date) {
     } else {
       season = 'Unable to determine the time of year!';
     }
-  } catch (e) {
+  } catch {
     throw new Error('Invalid date!');
   }
   
